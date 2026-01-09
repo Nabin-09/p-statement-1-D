@@ -6,6 +6,8 @@ from PIL import Image
 from torchvision import transforms
 from model import AIDetector
 from fft import fft_features
+import os
+
 
 # Page config
 st.set_page_config(
